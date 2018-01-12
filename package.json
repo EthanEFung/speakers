@@ -1,0 +1,32 @@
+{
+  "name": "speakers",
+  "version": "1.0.0",
+  "description": "An mp3 sentiment API service",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watch",
+    "rest": "node REST_server/index.js",
+    "dev": "nodemon REST_server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EthanEFung/speakers.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EthanEFung/speakers/issues"
+  },
+  "homepage": "https://github.com/EthanEFung/speakers#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "watson-developer-cloud": "^3.0.3"
+  },
+  "devDependencies": {
+    "jest": "^22.0.6",
+    "nodemon": "^1.14.11"
+  }
+}
