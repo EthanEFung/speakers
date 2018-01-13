@@ -3,8 +3,7 @@ const fetchAnalysis = require('../handlers/fetchAnalysis');
 const postData = require('../handlers/postData');
 const deleteAnalysis = require('../handlers/deleteAnalysis');
 
-
-router.route('/sentiment')
+router.route('/sentiment/:id')
   .get(fetchAnalysis)
   .post(postData)
   .delete(deleteAnalysis)
